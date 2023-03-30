@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    box-shadow: 1px 1px 5px 1px black;
+    padding-bottom: 30px;
+}
+
+header>img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: 10px;
+}
+
+header>img:hover {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: 10px;
+    transition: 800ms;
+    transform: rotate(360deg);
+}
+
+header>ul>li {
+    color: black;
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    padding-top: 40px;
+    font-weight: 1000;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header>ul>li:hover {
+    color: #008248;
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    padding-top: 40px;
+    font-weight: 1000;
+    font-size: 18px;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+main>img {
+    width: 1400px;
+    background-size: cover;
+}
+
+.main-site {
+    background-color: #00824844;
+    width: 1400px;
+    height: 160px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.text1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.button {
+    padding: 10px;
+    border: 2px black solid;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.button:hover {
+    font-size: 18px; 
+    padding: 9px;
+    transition: 300ms;
+    background-color: rgba(0, 0, 0, 0.253);
+    box-shadow: 0px 2px 5px black;
+}
+
+.main-site2 {
+    background-color: #00824844;
+    width: 1400px;
+    height: 600px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.main-foto {
+    background-size: cover;
+    height: 600px;
+    float: left;
+}
+
+.site-box2-tittle {
+    padding-top: 200px;
+    font-size: 25px;
+    font-weight: bold;
+    content: "\a";
+}
+
+.site-box2-tittle2 {
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.break-point {
+    white-space: pre-line;
+}
