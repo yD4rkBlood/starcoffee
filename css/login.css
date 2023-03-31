@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width:600px) {
+    header {
+        flex-direction: column;
+    }
+
+    main>img {
+        display: block;
+    }
+
+    .img-texto>img {
+        width: 100%;
+    }
+
+    site-box2-tittle2 {
+        width: 100%;
+    }
+
+
+}
+
+.break-point {
+    white-space: pre-line;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 3px black;
+    padding: 15px;
+}
+
+.logo-menu {
+    display: flex;
+}
+
+.logo-menu>img {
+    height: 60px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 15px;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+.loja-header {
+    font-size: 18px;
+}
+
+.icon {
+    margin-top: 15px;
+    width: 25px;
+    height: 27px;
+}
+
+
+.encontrar-loja {
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+.img-star {
+    float: right;
+    width: 120px;
+}
+
+.right-header>img {
+    float: left;
+    margin-right: 15px;
+
+}
+
+.right-header>a {
+    float: left;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.left-div {
+    float: left;
+    height: 880px;
+    width: 750px;
+    display: block;
+}
+
+.left-div-text {
+    text-align: center;
+    margin-top: 350px;
+    margin-right: 300px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.right-div {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 241, 241);
+    border: 1px solid rgba(0, 0, 0, 0.288);
+}
+
+.right-bottom {
+    background-color: rgb(223, 223, 223);
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-bottom > ul {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.button-above {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.button-above:hover {
+   background-color: rgba(0, 0, 0, 0.281);
+   transition: 300ms;
+   padding: 3px;
+   transform: scale(0.9);
+}
+
+.right-above-text {
+    font-size: 25px;
+}
+
+.right-div-text {
+    color: rgb(0, 179, 0);
+    font-size: 23px;
+    text-align: center;
+    padding-top: 80px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.right-div-email {
+    width: 300px;
+    margin-top: 60px;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 2px solid rgb(105, 105, 105);
+    margin-bottom: 50px;
+    background-color: rgb(241, 241, 241);
+}
+
+::placeholder {
+    text-align: left;
+}
+
+.button-confirm {
+    background-color: rgb(0, 200, 87);
+    border-radius: 20px;
+    margin-left: 100px;
+    padding: 5px 15px;
+    margin: 1px auto;
+    color: white;
+}
+
+.button-confirm:hover {
+    background-color: rgb(0, 126, 54);
+    transition: 300ms;
+    transform: scale(0.9);
+}
+
+.black-bar {
+    background-color: rgb(63, 63, 63);
+    height: 45px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+}
